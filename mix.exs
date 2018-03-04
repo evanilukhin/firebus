@@ -42,7 +42,8 @@ defmodule Firebus.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:kafka_ex, "~> 0.8.1"},
-      {:ace, "~> 0.15.10"},
+      {:httpoison, "~> 1.0"},
+      {:timex, "~> 3.0"},
       {:credo, "~> 0.3", only: [:dev, :test]}
     ]
   end
