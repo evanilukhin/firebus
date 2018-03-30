@@ -3,9 +3,6 @@ defmodule FirebusKafka.GenConsumer do
 
   alias KafkaEx.Protocol.Fetch.Message
 
-  require Logger
-  require IEx
-
   # note - messages are delivered in batches
   def handle_message_set(message_set, state) do
     for %Message{value: message} <- message_set do

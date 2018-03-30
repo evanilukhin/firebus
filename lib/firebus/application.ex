@@ -17,7 +17,7 @@ defmodule Firebus.Application do
     consumer_group_name = "firebus_group"
 
     # Bad developer( (temporary hardcode)
-    topic_names = ["test", "test4part"]
+    topic_names = ["virgin_messages"]
 
     # Define workers and child supervisors to be supervised
     children = [
